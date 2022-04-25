@@ -6,7 +6,7 @@ body {
 header {
     box-sizing: border-box;
     height: 72px;
-    padding: 10px 100px;
+    padding: 10px 200px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -16,4 +16,70 @@ header {
 .header-logo {
     font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+    gap: 20px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.pushed {
+    margin-left: auto;
+}
+
+.hero {
+    padding: 50px 200px;
+    background-color: #1F2937;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.text-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-div {
+ 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 300px;
+}
+
+.sign-up {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #24A0ED;
+    color: #F9FAF8;
 }
