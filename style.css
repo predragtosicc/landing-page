@@ -145,3 +145,69 @@ h1 {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.call-to-action {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-call-div {
+    background-color: #3882F6;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.call-header {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-text {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+}
+
+.call-button {
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #F9FAF8;
+}
+
+footer {
+    height: 72px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 200px;
+    color: #E5E7EB;
+}
